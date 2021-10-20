@@ -2,8 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Screenshot
-![Register page screenshot](./src/assets/images/dark.webm)
+## Screenshots
+![Register page screenshot](./src/assets/images/light.png)
+![Register page screenshot](./src/assets/images/dark.png)
 
 ## Available Scripts
 
