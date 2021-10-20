@@ -1,0 +1,14 @@
+div.app-switch {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+
+    display: flex;
+    align-items: center;
+}
+
+div.app-switch label {
+    margin-right: 0.5em;
+
+    font-weight: bold;
+}

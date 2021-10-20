@@ -13,19 +13,21 @@ function Button({ children, type }: ButtonProps) {
 
     useEffect(function () {
         if (buttonRef.current) {
-            let backgroundColor = "forestgreen";
+            let backgroundColor = "#3ddc84";
 
             if (type === "error") {
-                backgroundColor = "firebrick";
+                backgroundColor = "#ff9999";
             }
 
             buttonRef.current.style.backgroundColor = backgroundColor;
-            buttonRef.current.style.color = "white";
+            buttonRef.current.style.color = "#262626";
         }
     }, []);
 
+    let attrColorType = {'color-type': type}
+
     return (
-        <button ref={buttonRef}>
+        <button ref={buttonRef} {...attrColorType}>
             {children}
         </button>
     );

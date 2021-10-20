@@ -9,6 +9,11 @@ form#form-page {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
 }
 
+form#form-page.dark {
+    background-image: linear-gradient(to top right,rgb(45, 5, 65), darkslateblue);
+    color: white;
+}
+
 form#form-page legend {
     margin-bottom: 1.5rem;
 
