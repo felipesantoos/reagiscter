@@ -27,7 +27,7 @@ function Button({ children, type }: ButtonProps) {
     let attrColorType = {'color-type': type}
 
     return (
-        <button ref={buttonRef} {...attrColorType}>
+        <button ref={buttonRef} className="app-button" {...attrColorType}>
             {children}
         </button>
     );

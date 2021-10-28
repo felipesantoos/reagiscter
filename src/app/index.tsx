@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import AppSwitch from '../ui/components/AppSwitch';
 import FormPage from '../ui/pages/FormPage';
 
@@ -32,9 +32,9 @@ function App() {
     errorColor: string, 
     success: string) {
     for (var i = 0; i < buttonList.length; i++) {
-      if (buttonList[i].getAttribute("color-type") == "error") {
+      if (buttonList[i].getAttribute("color-type") === "error") {
         buttonList[i].style.backgroundColor = errorColor;
-      } else if (buttonList[i].getAttribute("color-type") == "success") {
+      } else if (buttonList[i].getAttribute("color-type") === "success") {
         buttonList[i].style.backgroundColor = success;
       }
       
